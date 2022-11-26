@@ -10,8 +10,9 @@ MariaDB> USE <DATABASE_NAME>;
 
 > CREATE TABLE users(userid INT NOT NULL AUTO_INCREMENT,uname VARCHAR(50) NOT NULL,upwd VARCHAR(60) NOT NULL,uemail VARCHAR(30) NOT NULL,umobile VARCHAR(10) NOT NULL, type VARCHAR(5) NOT NULL DEFAULT 'user', PRIMARY KEY(userid));
 
-=================
+==
 Clone this repository
+
 ==
 
 Then edit the file java-crud-new/src/main/java/registration/DBConnect.java
